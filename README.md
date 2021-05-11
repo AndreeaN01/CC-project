@@ -17,8 +17,11 @@ Aplicatia creata are rolul de a afisa informatii despre vreme, mai exact tempera
 4. Flux de date
  
 Exemple de request/response:
-API-uri am folosesc request-uri HTTP. In campul din pagina web corespunzator adresei este introdus textul: Bucuresti si se realizeaza requestul catre harti, ce transforma aceasta adresa in coordonate geografice (latitudine si longitudine), permitand translatarea adresei textuale intr-un punct pe harta. 
+
+API-uri am folosesc request-uri HTTP. In campul din pagina web corespunzator adresei este introdus textul: Bucuresti si se realizeaza requestul catre harti, ce transforma aceasta adresa in coordonate geografice (latitudine si longitudine), permitand translatarea adresei textuale intr-un punct pe harta.
+
 Metode HTTP
+
 Pagina web foloseste 2 request-uri HTTP, unul pentru API-ul geocode si unul pentru API-ul forecast.
 Autentificare si autorizare servicii utilizate
 Autentificarea requesturilor catre cele doua API-uri se face prin API key-uri, ce sunt introduse in url-ul request-ului. 
