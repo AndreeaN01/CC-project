@@ -18,7 +18,7 @@ Aplicatia creata are rolul de a afisa informatii despre vreme, mai exact tempera
  
 Exemple de request/response:
 
-API-urile folosesc request-uri HTTP. In campul din pagina web corespunzator adresei este introdus textul: Bucuresti si se realizeaza requestul catre harti, ce transforma aceasta adresa in coordonate geografice (latitudine si longitudine), permitand translatarea adresei textuale intr-un punct pe harta.
+API-urile folosesc request-uri HTTP. In campul din pagina web corespunzator adresei este introdus textul: Bucuresti si se realizeaza requestul catre harti, ce transforma aceasta adresa in coordonate geografice (latitudine si longitudine), permitand translatarea adresei textuale intr-un punct pe harta, iar ulterior, prin intermediul API-ului forecast, se afiseaza informatiile despre vreme corespunzatoare zonei geografice selectate.
 
 Metode HTTP
 
